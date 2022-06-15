@@ -3,10 +3,12 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Net.Http": "[2.2.29]",
     "UiPath.Java.Activities": "[1.3.1]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.Testing.Activities": "[1.4.6]",
-    "UiPath.UIAutomation.Activities": "[21.10.5]"
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPath.WebAPI.Activities": "[1.11.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -43,12 +45,14 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "d876d599-ee52-4df6-82b9-19a815993312",
+        "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "d8c007cd-25a4-4b63-afe1-9c88c3ce9665",
         "dataVariationFilePath": ".variations\\testdata_Sheet1.json",
+        "testCaseType": "TestCase",
         "fileName": "Test cases\\TestCase1.xaml"
       }
     ],
